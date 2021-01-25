@@ -1,0 +1,79 @@
+body {
+  background-image: url("/img/descarga\ \(3\)\ \(1\).jpeg");
+}
+
+@media screen and (max-width:600px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+.container {
+  max-width: 90%;
+  height: auto;
+}
+
+#accordionExample {
+  color: black;
+}
+
+.accordion-button {
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 2em;
+  height: 4em;
+  color:black;
+  text-align: center;
+
+}
+
+.accordion-body {
+  padding: 2em;
+}
+
+.accordion-button {
+  border-color: transparent;
+}
+
+p {
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion-button:not(.collapsed) {
+ /* color:black; */
+ background-color: transparent;
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: transparent;
+}
+
+.accordion-button::after {
+  width: 0em;
+}
+
+.accordion-collapse {
+  border: none;
+}
+
+
+#collapseTwo {
+  text-align: center;
+}
+#collapseThree {
+  text-align: center;
+}
+#collapseFour {
+  text-align: center;
+}
+
+#collapseFive {
+  text-align: center;
+}
+
+.accordion-body {
+  border-color: transparent;
+}
