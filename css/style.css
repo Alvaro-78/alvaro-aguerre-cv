@@ -1,5 +1,6 @@
 body {
-  background-image: url("/img/descarga.jpeg");
+  background-image: url("/img/fondo-asiatico.jpeg");
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width:600px) {
