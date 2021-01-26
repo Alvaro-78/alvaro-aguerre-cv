@@ -1,5 +1,5 @@
 body {
-  content: url(../img/acuarelas.jpeg);
+  background-image: url(../img/acuarelas.jpeg);
   font-size: 25px;
 }
 
