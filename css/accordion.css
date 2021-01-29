@@ -1,0 +1,104 @@
+body {
+  background-image: url(../img/galaxy-milky-night-rock-sky.jpg);
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+} 
+
+.container {
+  max-width: 70%;
+  height: 100%;
+}
+
+#accordionExample {
+  color:white;
+}
+
+.accordion-button {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1em;
+  height: 3em;
+  color: white;
+  text-align: center;
+  font-size: .8em;
+  border-color: transparent;
+
+}
+
+.accordion-button:hover {
+  transform: scale(1.4,1.5); 
+  -o-transition: all .8s linear;
+  transition: all .8s linear;  
+  color:maroon;
+}
+
+p {
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion-button:not(.collapsed) {
+ background-color: transparent;
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: transparent;
+}
+
+.accordion-button::after {
+  width: 0em;
+}
+
+.accordion-collapse {
+  border: none;
+}
+
+
+.accordion-body {
+  border-color: transparent;
+  text-align: center;
+  padding: 2em;
+}
+
+
+.volver {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+}
+
+.volver:hover {
+  transform: scale(1.5,1.5); 
+  -o-transition: all .8s linear;
+  transition: all .8s linear;  
+}
+
+.descarga2 {
+  background: #F7FABE url(images/descarga.gif) center no-repeat;
+  background-position: 15px 50%; /* x-pos y-pos */
+  text-align: left;
+  padding: 5px 20px 5px 45px;
+  border-top: 2px solid #DFE786;
+  border-bottom: 2px solid #DFE786;
+  color:#000000;
+   
+  }
+  .descarga2 a {
+  color:#4B4B4B;
+  text-decoration:none;
+  border-bottom:1px dotted #444;
+  }
