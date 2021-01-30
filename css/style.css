@@ -16,9 +16,17 @@ body {
   color: white;
 }
 
+.container:hover {
+  color: rgb(237,95,55);
+}
+
+
 @media screen and (max-width: 600px) {
   body {
     font-size: .8em;
+  }
+  .container {
+    color: rgb(237,95,55);
   }
 } 
 
@@ -54,6 +62,6 @@ a:hover {
   transform: scale(1.5,1.5); 
   -o-transition: all .8s linear;
   transition: all .8s linear;  
-  color:slateblue;
+  color: rgb(237,95,55);
 
 }
