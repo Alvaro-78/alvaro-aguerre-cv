@@ -1,5 +1,5 @@
 body {
-  background-image: url(../img/2880x1800-px-canvas-galaxy-love-space-stars-1732649-wallhere.com.jpg);
+  background-image: url(../img/galaxy-milky-night-rock-sky.jpg);
   background-position: center;  
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,19 +86,3 @@ p {
   -o-transition: all .8s linear;
   transition: all .8s linear;  
 }
-
-.descarga2 {
-  background: #F7FABE url(images/descarga.gif) center no-repeat;
-  background-position: 15px 50%; /* x-pos y-pos */
-  text-align: left;
-  padding: 5px 20px 5px 45px;
-  border-top: 2px solid #DFE786;
-  border-bottom: 2px solid #DFE786;
-  color:#000000;
-   
-  }
-  .descarga2 a {
-  color:#4B4B4B;
-  text-decoration:none;
-  border-bottom:1px dotted #444;
-  }
