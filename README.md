@@ -2,6 +2,15 @@
 
 Proyecto creado en HTML5 y CSS3 usando Bootstrap5
 
+  ![HTML5](./assets/icons/html5.png)
+  ![CSS3](./assets/icons/css3.png)
+  ![Bootstrap5](./assets/icons/bootstrap5.png)
+
+
+
+
+
+
 - [Requerimientos del sistema](#requerimientos-del-sistema)
 - [Información personal](#informacion-personal)
 - [Carta de presentación](#carta-de-presentacion)
